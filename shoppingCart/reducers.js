@@ -1,6 +1,5 @@
 import { act } from 'react-test-renderer';
 import { combineReducers } from 'redux';
-import Products from './components/Products';
 
 const counter = (state = 0, action) => {
     switch(action.type) {

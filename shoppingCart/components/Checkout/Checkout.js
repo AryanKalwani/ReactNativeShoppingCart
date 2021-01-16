@@ -1,7 +1,7 @@
 import React from 'react';
 import {ScrollView, View, StyleSheet} from 'react-native';
 import {connect} from 'react-redux';
-import Header from './Header';
+import Header from '../Products/Header';
 import Footer from './CheckoutFooter';
 import CheckoutCard from './CheckoutCard';
 
